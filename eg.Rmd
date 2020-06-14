@@ -1,0 +1,16 @@
+---
+title: "fars_function"
+author: "Aseem Gill"
+date: "2020-06-14"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fars_function}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This package is for analyzing and visualizing data from US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
