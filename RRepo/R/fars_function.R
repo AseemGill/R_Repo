@@ -141,8 +141,6 @@ fars_summarize_years <- function(years) {
 #' fatalities in a given state in a year a message "no accidents to plot" will
 #' be displayed as map
 #'
-#' @examples
-#' fars_map_state(5,2013)
 #'
 #' @import dplyr
 #' @import maps
