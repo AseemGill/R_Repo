@@ -1,10 +1,7 @@
 Package: R_Repo
 Title: Fatalility Report Analyzer/Visualizer
-Version: 0.0.0.9000
-Authors@R: 
-    person(given = "Aseem",
-           family = "Gill",
-           email = "aseemgill01@gmail.com"))
+Version: 0.1.0
+Authors: Aseem Gill
 Description: This package is for analyzing and visualizing data from US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
 
 License: GPL-3
