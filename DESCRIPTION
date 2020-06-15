@@ -1,5 +1,5 @@
 Package: R_Repo
-Title: What the Package Does (One Line, Title Case)
+Title: Fatalility Report Analyzer/Visualizer
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Aseem",
@@ -10,5 +10,10 @@ Description: This package is for analyzing and visualizing data from US National
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Imports: readr,
+    dplyr,
+    tidyr,
+    maps,
+    graphics
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
