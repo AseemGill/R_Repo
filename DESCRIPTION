@@ -3,8 +3,7 @@ Title: Fatalility Report Analyzer/Visualizer
 Version: 0.1.0
 Authors: Aseem Gill
 Description: This package is for analyzing and visualizing data from US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
-
-License: GPL-3
+License: GLP-3
 Encoding: UTF-8
 LazyData: true
 Imports: readr,
@@ -14,3 +13,4 @@ Imports: readr,
     graphics
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+VignetteBuilder: knitr
