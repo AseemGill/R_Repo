@@ -29,7 +29,7 @@ Or if the file does not exist in the directory
 Or is the file is not a csv file
 }
 \examples{
-fars_read('data/2012report.csv')
-fars_read('data/string.csv')
+fars_read("accident_2013.csv.bz2")
+fars_read("accident_2015.csv.bz2")
 
 }

@@ -52,7 +52,7 @@ fars_read <- function(filename) {
 make_filename <- function(year) {
   year <- as.integer(year)
   fp <- sprintf("accident_%d.csv.bz2",year)
-  return(system.file('extdata',fp,package='RRepo'))
+  return(fp)
 }
 
 
