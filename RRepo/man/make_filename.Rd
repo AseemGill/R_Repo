@@ -25,7 +25,7 @@ in the format of \code{accident_year.csv.bz}.
 Errors will be thrown if the input year is not a numeric
 }
 \examples{
-make_filename(2019)
-make_filename(1979)
+make_filename(2015)
+make_filename(2013)
 
 }

@@ -19,8 +19,8 @@ library(knitr)
 #' @import dplyr
 #'
 #' @examples
-#' fars_read('data/2012report.csv')
-#' fars_read('data/string.csv')
+#' fars_read("accident_2013.csv.bz2")
+#' fars_read("accident_2015.csv.bz2")
 #'
 #'@export
 fars_read <- function(filename) {
