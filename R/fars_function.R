@@ -84,8 +84,8 @@ make_filename <- function(year) {
 #' Or if the file does not exist in the directory
 #' Or is the file is not a csv file
 #' @examples
-#' fars_read_years(2000:2019)
-#' fars_read_years(c(1990,2000,2010))
+#' fars_read_years(2013:2015)
+#' fars_read_years(c(2013,2015))
 #'
 #'@export
 fars_read_years <- function(years) {
@@ -118,8 +118,8 @@ fars_read_years <- function(years) {
 #' @import dplyr
 #' @import magrittr
 #' @examples
-#' fars_summarize_years(2000:2019)
-#' fars_summarize_years(c(2000,2010))
+#' fars_summarize_years(2013:2015)
+#' fars_summarize_years(c(2013,2015))
 #'
 #' @export
 fars_summarize_years <- function(years) {
@@ -142,7 +142,7 @@ fars_summarize_years <- function(years) {
 #' be displayed as map
 #'
 #' @examples
-#' fars_map_state(5,2000)
+#' fars_map_state(5,2013)
 #'
 #' @import dplyr
 #' @import maps
