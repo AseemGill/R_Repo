@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: person("Aseem", "Gill", email = "aseemgill01@gmail.com",
   role = c("aut", "cre"))
 Description: This package is for analyzing and visualizing data from US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
-License: GLP-3
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: readr,
