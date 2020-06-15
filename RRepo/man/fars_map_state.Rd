@@ -31,6 +31,6 @@ If state number is invalid
 If state number is a non numeric
 }
 \examples{
-fars_map_state(5,2000)
+fars_map_state(5,2013)
 
 }

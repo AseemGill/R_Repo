@@ -26,7 +26,7 @@ Or if the file does not exist in the directory
 Or is the file is not a csv file
 }
 \examples{
-fars_summarize_years(2000:2019)
-fars_summarize_years(c(2000,2010))
+fars_summarize_years(2013:2015)
+fars_summarize_years(c(2013,2015))
 
 }
