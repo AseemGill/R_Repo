@@ -1,5 +1,3 @@
 library(testthat)
-source(file.path(x,"R_Repo","R/fars_function.R"))
-setwd()
-x <-fars_read("data/accident_2013.csv.bz2")
+devtools::install_github("https://github.com/AseemGill/R_Repo")
 test_that("make_filename",expect_equal(make_filename(2015),"accident_2015.csv.bz2"))

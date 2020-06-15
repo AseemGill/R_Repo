@@ -15,7 +15,7 @@ library(knitr)
 #' Or if the file does not exist in the directory
 #' Or is the file is not a csv file
 #'
-#' @importFrom \code{readr read_csv}
+#' @importFrom readr read_csv
 #' @importFrom dplyr tbl_df
 #'
 #' @examples
@@ -115,7 +115,7 @@ fars_read_years <- function(years) {
 #' Or if the file does not exist in the directory
 #' Or is the file is not a csv file
 #' @import dplyr
-#' @importFrom magritter %>%
+#' @importFrom magrittr %>%
 #' @examples
 #' fars_summarize_years(2000:2019)
 #' fars_summarize_years(c(2000,2010))
@@ -145,7 +145,7 @@ fars_summarize_years <- function(years) {
 #'
 #' @importFrom dplyr filter
 #' @importFrom maps map
-#' @importFrom graphics point
+#' @import graphics
 #'
 #' @note Errors will be thrown if the argument years are non-numeric
 #' Or if the file does not exist in the directory
