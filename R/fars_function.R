@@ -1,5 +1,3 @@
-library(roxygen2)
-library(knitr)
 #' National High Safety Fatality Report Data Reader
 #' \code{fars_read} will read data from the National Highway Traffic Safety
 #' Administration's Fatality Analysis Reporting System into a dplyr
@@ -163,3 +161,4 @@ fars_map_state <- function(state.num, year) {
     graphics::points(LONGITUD, LATITUDE, pch = 46)
   })
 }
+`
