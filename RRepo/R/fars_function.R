@@ -18,9 +18,6 @@ library(knitr)
 #' @import readr
 #' @import dplyr
 #'
-#' @examples
-#' fars_read("accident_2013.csv.bz2")
-#' fars_read("accident_2015.csv.bz2")
 #'
 #'@export
 fars_read <- function(filename) {
@@ -83,9 +80,6 @@ make_filename <- function(year) {
 #' @note Errors will be thrown if the argument years are non-numeric
 #' Or if the file does not exist in the directory
 #' Or is the file is not a csv file
-#' @examples
-#' fars_read_years(2013:2015)
-#' fars_read_years(c(2013,2015))
 #'
 #'@export
 fars_read_years <- function(years) {
@@ -117,9 +111,6 @@ fars_read_years <- function(years) {
 #' Or is the file is not a csv file
 #' @import dplyr
 #' @import magrittr
-#' @examples
-#' fars_summarize_years(2013:2015)
-#' fars_summarize_years(c(2013,2015))
 #'
 #' @export
 fars_summarize_years <- function(years) {
