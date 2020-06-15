@@ -1,4 +1,5 @@
 Package: R_Repo
+Type: Package
 Title: Fatalility Report Analyzer/Visualizer
 Version: 0.1.0
 Authors: Aseem Gill
