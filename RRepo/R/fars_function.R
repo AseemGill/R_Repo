@@ -15,8 +15,8 @@ library(knitr)
 #' Or if the file does not exist in the directory
 #' Or is the file is not a csv file
 #'
-#' @importFrom readr read_csv
-#' @importFrom dplyr tbl_df
+#' @import readr
+#' @import dplyr
 #'
 #' @examples
 #' fars_read('data/2012report.csv')
@@ -52,6 +52,7 @@ fars_read <- function(filename) {
 make_filename <- function(year) {
   year <- as.integer(year)
   fp <- sprintf("accident_%d.csv.bz2",year)
+  return(fp)
   system.file('extdata',fp,package='package name')
 }
 
@@ -72,9 +73,9 @@ make_filename <- function(year) {
 #' inputted years vector and return the data if available if present an error
 #' will be thrown
 #'
-#' @importFrom dplyr mutate
-#' @importFrom dplyr select
-#' @importFrom magrittr %>%
+#' @import dplyr
+#' @import dplyr
+#' @import magrittr
 #'
 #' @note View the \code{make_filename()} documentation for more info one how the
 #' filenames are created.
@@ -115,7 +116,7 @@ fars_read_years <- function(years) {
 #' Or if the file does not exist in the directory
 #' Or is the file is not a csv file
 #' @import dplyr
-#' @importFrom magrittr %>%
+#' @import magrittr
 #' @examples
 #' fars_summarize_years(2000:2019)
 #' fars_summarize_years(c(2000,2010))
@@ -143,8 +144,8 @@ fars_summarize_years <- function(years) {
 #' @examples
 #' fars_map_state(5,2000)
 #'
-#' @importFrom dplyr filter
-#' @importFrom maps map
+#' @import dplyr
+#' @import maps
 #' @import graphics
 #'
 #' @note Errors will be thrown if the argument years are non-numeric
