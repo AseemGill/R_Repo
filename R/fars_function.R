@@ -17,6 +17,7 @@ library(knitr)
 #'
 #' @import readr
 #' @import dplyr
+#' @import devtools
 #'
 #'
 #'@export
@@ -40,6 +41,8 @@ fars_read <- function(filename) {
 #' year is a the number of year that was inputted
 #'
 #' @note Errors will be thrown if the input year is not a numeric
+#'
+#' @import devtools
 #'
 #' @examples
 #' make_filename(2015)
@@ -73,6 +76,7 @@ make_filename <- function(year) {
 #' @import dplyr
 #' @import dplyr
 #' @import magrittr
+#' @import devtools
 #'
 #' @note View the \code{make_filename()} documentation for more info one how the
 #' filenames are created.
@@ -111,7 +115,7 @@ fars_read_years <- function(years) {
 #' Or is the file is not a csv file
 #' @import dplyr
 #' @import magrittr
-#'
+#' @import devtools
 #' @export
 fars_summarize_years <- function(years) {
   dat_list <- fars_read_years(years)
@@ -136,7 +140,7 @@ fars_summarize_years <- function(years) {
 #' @import dplyr
 #' @import maps
 #' @import graphics
-#'
+#' @import devtools
 #' @note Errors will be thrown if the argument years are non-numeric
 #' Or if the file does not exist in the directory
 #' Or is the file is not a csv file
