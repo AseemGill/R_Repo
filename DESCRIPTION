@@ -1,4 +1,4 @@
-Package: R_Repo
+Package: RRepo
 Type: Package
 Title: Fatalility Report Analyzer/Visualizer
 Version: 0.1.0
