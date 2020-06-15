@@ -2,4 +2,5 @@
 
 language: R
 sudo: false
+as: osx
 cache: packages
